@@ -6,7 +6,6 @@
     xmlns:views="clr-namespace:JuanAraujoB_ExamenProgreso2.Views"
     Shell.FlyoutBehavior="Flyout">
 
-    <FlyoutItem>
         <ShellContent
         Title="Notas"
         ContentTemplate="{DataTemplate views:AllNotesPage}"
@@ -22,6 +21,4 @@
         ContentTemplate="{DataTemplate views:JA_Conteo}"
         Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
 
-
-    </FlyoutItem>
 </Shell>
