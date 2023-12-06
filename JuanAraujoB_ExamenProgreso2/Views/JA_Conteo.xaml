@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JuanAraujoB_ExamenProgreso2.Views.JA_Conteo"
+             Title="Conteo de caracteres"
+             BackgroundColor="DeepSkyBlue">
+    <AbsoluteLayout>
+        <Entry x:Name="inputEntry" Placeholder="Ingresa una cadena" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.1, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="Calcular" Clicked="CalcularClicked" 
+                AbsoluteLayout.LayoutBounds="0.5, 0.25, 0.8, 0.1" 
+                AbsoluteLayout.LayoutFlags="All" />
+
+        <Label Text="Resultados:" FontSize="Title" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.4, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="numerosLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="letrasLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.6, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="vocalesLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.7, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="mayusculasLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.8, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="minusculasLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.9, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label x:Name="totalLabel" 
+               AbsoluteLayout.LayoutBounds="0.5, 1, 0.8, 0.1" 
+               AbsoluteLayout.LayoutFlags="All" />
+
+        <Button Text="Limpiar" Clicked="LimpiarClicked" 
+                AbsoluteLayout.LayoutBounds="0.5, 1.15, 0.8, 0.1" 
+                AbsoluteLayout.LayoutFlags="All" />
+    </AbsoluteLayout>
+</ContentPage>
